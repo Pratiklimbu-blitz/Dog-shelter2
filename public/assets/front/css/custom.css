@@ -1,0 +1,6 @@
+@media only screen and (min-width: 991px)  {
+    .campaign-item .image img{
+        width: 300px;
+        height: 300px;
+    }
+}

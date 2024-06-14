@@ -1,0 +1,50 @@
+#main-wrapper{
+    position: relative;
+}
+/*Datatable*/
+.dataTable + #bottom{
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+.dataTable + #bottom label{
+    margin-bottom: 0;
+}
+.dataTable + #bottom  .dataTables_info{
+    padding-top: 0;
+}
+
+.show-table{
+    width: 100%;
+}
+.show-table th,
+.show-table td{
+    padding: 5px 0;
+}
+
+
+.prev-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.image-preview-container{
+    display: none;
+}
+.image-preview-container.show{
+    display: block;
+}
+.image-preview-container{
+    height: 150px;
+    width: 150px;
+}
+.image-preview-container img{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
